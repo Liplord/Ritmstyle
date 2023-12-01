@@ -340,6 +340,20 @@
         flex-direction: row;
     }
     
+    .price__li {
+        width: 160px;
+        height: 25px;
+        transition: 1s;
+    }
+    
+    .price__li:hover {
+        color: black;
+        transform: scale(1.2);
+        background-color: cornflowerblue;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    
     h5 {
         color: var(--white, #FFF);
         text-align: center;
